@@ -1,0 +1,43 @@
+,config,vectorizer,model,best_params,train_accuracy,test_accuracy,cross_val_train_score,cross_val_test_score
+21,df_lemmatize_True_rmstopwords_True_rmchar_False,Count,Perceptron,"{'alpha': 0.001, 'penalty': 'l1'}",0.9938775510204082,1.0,0.986734693877551,1.0
+3,df_lemmatize_True_rmstopwords_True_rmchar_True,Count,Perceptron,"{'alpha': 0.001, 'penalty': 'l1'}",0.9938775510204082,1.0,0.9887755102040817,1.0
+27,df_lemmatize_False_rmstopwords_True_rmchar_False,Count,Perceptron,"{'alpha': 0.001, 'penalty': 'l1'}",0.9938775510204082,1.0,0.9857142857142858,1.0
+9,df_lemmatize_False_rmstopwords_True_rmchar_True,Count,Perceptron,"{'alpha': 0.0001, 'penalty': 'l1'}",0.996938775510204,1.0,0.986734693877551,1.0
+39,df_lemmatize_False_rmstopwords_False_rmchar_False,Count,Perceptron,"{'alpha': 0.0001, 'penalty': 'l2'}",1.0,1.0,0.9836734693877552,0.95
+23,df_lemmatize_True_rmstopwords_True_rmchar_False,Count,LinearSVC,{'C': 1},1.0,1.0,0.9857142857142858,0.95
+34,df_lemmatize_True_rmstopwords_False_rmchar_False,Count,LogisticRegression,"{'C': 10, 'penalty': 'l2', 'solver': 'liblinear'}",1.0,1.0,0.9816326530612244,0.95
+33,df_lemmatize_True_rmstopwords_False_rmchar_False,Count,Perceptron,"{'alpha': 0.0001, 'penalty': 'l2'}",1.0,1.0,0.9836734693877551,0.95
+12,df_lemmatize_True_rmstopwords_False_rmchar_True,TF-IDF,Perceptron,"{'alpha': 0.0001, 'penalty': 'l1'}",0.996938775510204,1.0,0.9816326530612246,0.95
+15,df_lemmatize_True_rmstopwords_False_rmchar_True,Count,Perceptron,"{'alpha': 0.0001, 'penalty': 'l1'}",1.0,1.0,0.9806122448979593,0.95
+30,df_lemmatize_True_rmstopwords_False_rmchar_False,TF-IDF,Perceptron,"{'alpha': 0.0001, 'penalty': 'l1'}",0.9989795918367347,1.0,0.9826530612244897,0.95
+40,df_lemmatize_False_rmstopwords_False_rmchar_False,Count,LogisticRegression,"{'C': 10, 'penalty': 'l2', 'solver': 'liblinear'}",1.0,1.0,0.9806122448979592,0.95
+38,df_lemmatize_False_rmstopwords_False_rmchar_False,TF-IDF,LinearSVC,{'C': 10},1.0,1.0,0.986734693877551,0.9
+37,df_lemmatize_False_rmstopwords_False_rmchar_False,TF-IDF,LogisticRegression,"{'C': 15, 'penalty': 'l2', 'solver': 'lbfgs'}",1.0,1.0,0.9826530612244898,0.9
+36,df_lemmatize_False_rmstopwords_False_rmchar_False,TF-IDF,Perceptron,"{'alpha': 0.0001, 'penalty': 'l1'}",0.9979591836734694,1.0,0.9785714285714286,0.9
+35,df_lemmatize_True_rmstopwords_False_rmchar_False,Count,LinearSVC,{'C': 1},1.0,1.0,0.9846938775510203,0.9
+32,df_lemmatize_True_rmstopwords_False_rmchar_False,TF-IDF,LinearSVC,{'C': 10},1.0,1.0,0.9857142857142858,0.9
+31,df_lemmatize_True_rmstopwords_False_rmchar_False,TF-IDF,LogisticRegression,"{'C': 15, 'penalty': 'l2', 'solver': 'lbfgs'}",1.0,1.0,0.9816326530612244,0.9
+24,df_lemmatize_False_rmstopwords_True_rmchar_False,TF-IDF,Perceptron,"{'alpha': 0.0001, 'penalty': 'l1'}",0.996938775510204,1.0,0.9816326530612244,0.9
+0,df_lemmatize_True_rmstopwords_True_rmchar_True,TF-IDF,Perceptron,"{'alpha': 0.0001, 'penalty': 'l1'}",1.0,1.0,0.9826530612244898,0.9
+14,df_lemmatize_True_rmstopwords_False_rmchar_True,TF-IDF,LinearSVC,{'C': 10},1.0,1.0,0.9857142857142858,0.9
+17,df_lemmatize_True_rmstopwords_False_rmchar_True,Count,LinearSVC,{'C': 1},1.0,1.0,0.9857142857142858,0.9
+6,df_lemmatize_False_rmstopwords_True_rmchar_True,TF-IDF,Perceptron,"{'alpha': 0.0001, 'penalty': 'l1'}",0.996938775510204,1.0,0.9857142857142858,0.9
+13,df_lemmatize_True_rmstopwords_False_rmchar_True,TF-IDF,LogisticRegression,"{'C': 15, 'penalty': 'l2', 'solver': 'lbfgs'}",1.0,1.0,0.9806122448979592,0.9
+16,df_lemmatize_True_rmstopwords_False_rmchar_True,Count,LogisticRegression,"{'C': 5, 'penalty': 'l2', 'solver': 'liblinear'}",1.0,1.0,0.9816326530612244,0.9
+41,df_lemmatize_False_rmstopwords_False_rmchar_False,Count,LinearSVC,{'C': 10},1.0,1.0,0.9846938775510203,0.9
+18,df_lemmatize_True_rmstopwords_True_rmchar_False,TF-IDF,Perceptron,"{'alpha': 0.0001, 'penalty': 'l1'}",0.9989795918367347,1.0,0.9857142857142858,0.9
+19,df_lemmatize_True_rmstopwords_True_rmchar_False,TF-IDF,LogisticRegression,"{'C': 10, 'penalty': 'l2', 'solver': 'lbfgs'}",1.0,1.0,0.9887755102040817,0.85
+2,df_lemmatize_True_rmstopwords_True_rmchar_True,TF-IDF,LinearSVC,{'C': 1},1.0,1.0,0.9887755102040817,0.85
+20,df_lemmatize_True_rmstopwords_True_rmchar_False,TF-IDF,LinearSVC,{'C': 1},1.0,1.0,0.9887755102040817,0.85
+26,df_lemmatize_False_rmstopwords_True_rmchar_False,TF-IDF,LinearSVC,{'C': 1},1.0,1.0,0.9887755102040817,0.8
+25,df_lemmatize_False_rmstopwords_True_rmchar_False,TF-IDF,LogisticRegression,"{'C': 10, 'penalty': 'l2', 'solver': 'lbfgs'}",1.0,1.0,0.9887755102040817,0.8
+29,df_lemmatize_False_rmstopwords_True_rmchar_False,Count,LinearSVC,{'C': 1},1.0,1.0,0.9857142857142858,0.8
+1,df_lemmatize_True_rmstopwords_True_rmchar_True,TF-IDF,LogisticRegression,"{'C': 10, 'penalty': 'l2', 'solver': 'lbfgs'}",1.0,1.0,0.9887755102040817,0.8
+10,df_lemmatize_False_rmstopwords_True_rmchar_True,Count,LogisticRegression,"{'C': 15, 'penalty': 'l2', 'solver': 'liblinear'}",1.0,1.0,0.9836734693877551,0.8
+8,df_lemmatize_False_rmstopwords_True_rmchar_True,TF-IDF,LinearSVC,{'C': 1},1.0,1.0,0.9887755102040817,0.8
+7,df_lemmatize_False_rmstopwords_True_rmchar_True,TF-IDF,LogisticRegression,"{'C': 10, 'penalty': 'l2', 'solver': 'lbfgs'}",1.0,1.0,0.9887755102040817,0.8
+11,df_lemmatize_False_rmstopwords_True_rmchar_True,Count,LinearSVC,{'C': 1},1.0,1.0,0.9857142857142858,0.75
+5,df_lemmatize_True_rmstopwords_True_rmchar_True,Count,LinearSVC,{'C': 1},1.0,1.0,0.9857142857142858,0.75
+28,df_lemmatize_False_rmstopwords_True_rmchar_False,Count,LogisticRegression,"{'C': 1, 'penalty': 'l2', 'solver': 'lbfgs'}",1.0,1.0,0.9826530612244898,0.7
+22,df_lemmatize_True_rmstopwords_True_rmchar_False,Count,LogisticRegression,"{'C': 2, 'penalty': 'l2', 'solver': 'lbfgs'}",1.0,1.0,0.9826530612244898,0.7
+4,df_lemmatize_True_rmstopwords_True_rmchar_True,Count,LogisticRegression,"{'C': 2, 'penalty': 'l2', 'solver': 'lbfgs'}",1.0,1.0,0.9826530612244898,0.6
